@@ -1,6 +1,6 @@
-#### Hacker news fastapi application
+# Hacker news fastapi application
 
-#### Prerequisites
+## Prerequisites
 
 Install docker on your system
 
@@ -11,21 +11,21 @@ Install docker on your system
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/Jagadisg/social_network.git
+   https://github.com/Jagadisg/hackernews-fastapi.git
 
 2. **Create virtual environment**
    
    ```sh
    python -m venv venv
 
-3. ### Build the Docker images.
+3. **Build the Docker images.**
 
     ```sh
     docker compose up --build
 
 4. **Access the Application**
 
-    ### Once the containers are up and running, you can access the application in your web browser at:
+    **Once the containers are up and running, you can access the application in your web browser at:**
 
     ```sh
     http://localhost:8000/top-news?count=5

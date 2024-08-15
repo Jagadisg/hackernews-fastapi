@@ -1,4 +1,4 @@
-#### Hacker news fastapi application
+##### Hacker news fastapi application
 
 #### Prerequisites
 
@@ -18,14 +18,14 @@ Install docker on your system
    ```sh
    python -m venv venv
 
-3. ### Build the Docker images.
+3. **Build the Docker images.**
 
     ```sh
     docker compose up --build
 
 4. **Access the Application**
 
-    ### Once the containers are up and running, you can access the application in your web browser at:
+    **Once the containers are up and running, you can access the application in your web browser at:**
 
     ```sh
     http://localhost:8000/top-news?count=5
